@@ -23,7 +23,7 @@ form.addEventListener("submit", (e) => {
   setTimeout(() => {
     loading.style.display = "none";
     result.style.display = "block";
-  }, 3000);
+  }, 3);
 });
 
 function checkAllPalindromes(arr) {
