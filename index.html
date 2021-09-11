@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/logo.webp" type="image/webp" sizes="16x16" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Palindrome Birthday</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <section id="palindrome" class="palindrome">
+        <div class="palindrome-body">
+          <h1 class="palindrome-heading">Palindrome Checker For BirthDay</h1>
+          <form class="form">
+            <div class="input">
+              <label for="birthday" class="label">Enter Your Birthday:</label>
+              <input required type="date" id="birthday" />
+            </div>
+            <div class="helper">
+              <small
+                >*We will check palindromes for these formats only DDMMYYYY,
+                MMDDYYYY, YYYYMMDD, DDMMYY, MMDDYY, YYMMDD</small
+              >
+            </div>
+            <button class="palindrome-btn">Submit</button>
+            <div class="result"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
